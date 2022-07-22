@@ -249,6 +249,8 @@ a {
     height: 470px;
     left: 0px;
     top: 1094px;
+    display: flex;
+    flex-wrap: wrap;
 
     background: #242B2E;
 }
@@ -456,7 +458,14 @@ a {
     position: relative;
     display: inline;
     top: 7%;
-    right: 6%;
+    margin-right: 10%;
+
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+color: #758283;
  
 }
  
