@@ -408,11 +408,11 @@ a {
 }
 
 #footermenu {
-position: absolute;
-left: 23.67%;
-right: 26.02%;
-top: 58.8%;
-bottom: 33.05%;
+    position: absolute;
+    left: 23.67%;
+    right: 26.02%;
+    top: 58.8%;
+    bottom: 33.05%;
 
 }
 
@@ -420,7 +420,7 @@ bottom: 33.05%;
 a {
     position: relative;
     display: inline;
-    margin-right:1%;
+    margin-right: 1%;
     text-decoration: none;
     font-family: 'Montserrat';
     font-style: normal;
@@ -428,3 +428,35 @@ a {
     font-size: 13px;
     color: #758283;
 }
+
+ 
+.moviecard {
+    position: relative;
+    width: 200px;
+    height: 346px;
+    margin-left: 109px;
+    margin-top: 6.40%;
+    z-index: 1;
+     
+}
+.moviecard .moviename {
+    position: absolute;
+    left: 0%; 
+    top: 84%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;     
+    }
+ 
+.moviecard .time,.duration,.type{
+    left: 0;
+    position: relative;
+    display: inline;
+    top: 7%;
+    right: 6%;
+ 
+}
+ 
