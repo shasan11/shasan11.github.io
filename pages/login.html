@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/moviecont.css" />
+    <script src="assets/scriprt.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Movilala |Login</title>
+    <style>
+         input{
+    outline: none;
+  }
+        #login{
+            padding-left: 22.5%;
+            padding-top: 4%;
+            padding-bottom: 3%;
+            background-color:#242b2e;
+        }
+
+        .header{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 64px;
+            line-height: 78px;
+            margin-left: 25%;
+            color: #D82E2F;
+        }
+        #uname,#pwd{
+            border:none;
+            margin-top: 60px;
+            background: transparent;
+            border-bottom: 3px solid #D82E2F;
+            width: 703px;
+            height: 45px; 
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+
+            color: #758283;        
+
+        }
+
+        #loginbtn{
+            margin-left: 20%;
+            margin-top: 30px;
+            width: 225px;
+            height: 50px;
+            background: #D82E2F;
+            border-radius: 10px;
+            border-style: none;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 49px;
+
+            color: #FFFFFF;
+
+        }
+
+        .nmtext{
+            margin-left: 15%;
+            margin-top: 3%;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 18px;
+            color: #FFFFFF;
+            
+        }
+
+        span{
+            color: #D82E2F;
+            text-decoration: none;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        input::placeholder
+        {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+
+color: #758283;
+        }
+    </style>
+</head>
+<body>
+    <!--================================Navigation Bar============================================================-->
+    <div class="topnav" id="myTopnav">
+        <a href="" class="active"
+          ><img
+            class="logoimage"
+            src="/assets/images/mainlogo.png"
+            width="140px"
+            alt="logo"
+        /></a>
+        <div class="mainmenu">
+          <a></a>
+          <a href="../index.html">Home</a>
+          <a href="./movie.html">Movies</a>
+          <a href="./tvshows.html" >TV Shows</a>
+          <a href="./cartoons.html" style="color: white">Cartoons</a>
+          <a href="#contact">AI Recommend</a>
+        </div>
+  
+        <div class="icmenu" style="left: 22%; right: 0">
+          <a></a>
+          <a href="/pages/app.html"><ion-icon name="phone-portrait-outline"></ion-icon></a>
+          <a href="/pages/login.html"><ion-icon name="person"></ion-icon></a>
+          <a href="/pages/contact.html"><ion-icon name="mail-outline"></ion-icon></a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <ion-icon name="menu"></ion-icon>
+        </a>
+      </div>
+    <!--================================Navigation Bar============================================================-->
+
+     <!--================================content============================================================-->
+     <div id="login">
+        <p class="header">Login</p>
+        <form>
+            <input type="text" name="username" id="uname" placeholder="Enter Your Username" required>
+            <input type="password" name="password" id="pwd"  placeholder="Enter Your Username" required><br>
+            <button type="submit" id="loginbtn">Login</button>
+        </form>
+        <p class="nmtext">Not Registered Yet?<a href="/pages/signup.html"><span>Register</span></a> Here</p>
+     </div>
+
+     <!--================================content============================================================-->
+
+
+       <!--================================Footer============================================================-->
+       <div id="footer">
+        <table>
+            <tr>
+                <td><img src="/assets/images/mainlogo.png" width="200px" style="margin-left:28px;"></td>
+                <td>
+                    <p class="footertext">Movilala is a Free Movies streaming site with zero promotions. We let you watch films online without enrolling or paying, with stack of 10000 motion pictures and TV-Series. You can Download full films from our site and watch it later.</p>
+                    <ul class="footermenu">
+                        <li><a href="#">Mobile App</a></li>
+                        <li><a href="#">Terms of Services</a></li>
+                        <li><a href="pages/contact.html" target="_blank">Contact</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="https://shasandhakal.com.np" target="_blank">Shasan Dhakal</a></li>
+                    </ul>
+                    <br>
+                    <p class="lasttext">Designed and Developed By &copy; Shasan Dhakal  2022</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!--================================Footer============================================================-->
+
+</body>
+</html>

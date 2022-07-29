@@ -1,0 +1,478 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+}
+/*The stylesheet for navigation bar*/
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #758283;
+}
+
+.topnav a:hover {
+  color: #d82e2f !important;
+}
+
+.topnav a.active {
+  width: 10%;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.topnav .mainmenu {
+  margin-left: 24.3%;
+  margin-right: 12%;
+  margin-top: 0.5%;
+}
+.topnav .mainmenu a {
+  margin-left: 4.3%;
+  margin-top: 0.5%;
+}
+
+.topnav .icmenu a {
+  color: #ddd;
+  margin-left: 3.09% !important;
+  margin-top: 0.5%;
+  font-size: 20px;
+}
+
+.logoimage {
+  margin-top: 0.5%;
+}
+
+/*The stylesheet for navigation bar ends*/
+
+/*Video Background*/
+
+/*End Video Player*/
+
+/*This is the css for the top container*/
+#topcontainer {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("assets/images/backvdo.gif") no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  width: 100% !important;
+  text-align: center;
+}
+
+.maintext {
+  font-family: "Montserrat";
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 78px;
+  margin-top: 10.42%;
+
+  color: #ffffff;
+}
+
+.subtext {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  margin-top: 3%;
+
+  color: #cad5e2;
+}
+/*searchbox*/
+.searchbox {
+  margin-top: 3%;
+}
+
+.searchbox input {
+  width: 35%;
+  height: 55px;
+  border: 3px solid #d82e2f;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #242b2e;
+}
+.searchbox input::placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #758283;
+}
+.searchbox button {
+  margin-left: -5px;
+  box-sizing: border-box;
+  background-color: #d82e2f;
+  border: none;
+  width: 8%;
+  height: 62px;
+}
+
+@media screen and (max-width: 600px) {
+  .maintext {
+    font-size: 44px;
+  }
+
+  .subtext {
+    font-size: 15px;
+  }
+  .searchbox input {
+    width: 60%;
+    height: 45px;
+  }
+
+  .searchbox input::placeholder {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 29px;
+    text-align: center;
+    color: #758283;
+  }
+
+  .searchbox button {
+    height: 52.8px;
+    width: 9%;
+  }
+}
+/*searchbox*/
+
+/*This is the css for the top container*/
+
+/*Categories*/
+.categories {
+  margin-top: 0%;
+  background-color: #242b2e;
+  padding-left: 9.9%;
+}
+.text_cat {
+  display: inline !important;
+}
+.card_icon{
+  background-color: #242b2e;
+  border-radius: 10px;   
+  margin-left: 30%;
+  height: 60px;
+  width: 60px;
+
+}
+.cat_card_holder{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3%;
+}
+.card_icon ion-icon{
+  font-size: 35px;
+  color: #D82E2F;
+  margin-left:20%;
+  margin-top:20%;
+}
+.cat_card{
+width: 180px;
+height: 120px;
+background: #758283;
+border-radius: 10px;
+padding-top: 5%;
+padding-bottom:2% ;
+margin-right:3.4%;
+}
+.categories_text {
+   
+  margin-right: 10%;
+  margin-top: 5%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.categories_subtext {
+  margin-top: 73px;
+  margin-left: 23.12%;
+  margin-right: 10.94%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #758283;
+}
+
+ 
+
+.mcat_title{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 4%;
+  color: #FFFFFF;
+  margin-bottom: 2%;
+}
+.cat_no{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #CAD5E2;
+margin-bottom: 2%;
+}
+
+.viewmore{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration-line: underline;
+  color: #D82E2F;
+}
+
+.card_icon,.card_text{
+  display: flex;
+  flex-wrap: wrap;
+}
+/*mplus*/
+.mplus {
+  background-color: black;
+  padding-top: 5.9%;
+  padding-bottom: 5.9%;
+}
+.promo_text {
+  margin-right: 22.31%;
+  margin-top: 1%;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #cad5e2;
+}
+.gp {
+  margin-left: 31%;
+  background: #d82e2f;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  height: 42px;
+}
+
+.plus_text {
+  margin-left: 26.05%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+
+  color: #d82e2f;
+}
+/*mplus*/
+
+/*movie card*/
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cat_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+
+  color: #ffffff;
+  margin-right: 9.2%;
+}
+
+.moviebar {
+   
+  padding-left: 8.8%;
+  padding-top: 3%;
+  padding-bottom: 2px;
+  background-color: #242b2e;
+}
+.movieimage {
+  width: 200px;
+  height: 300px;
+  background-size: cover;
+}
+
+.moviecardshow {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+.movie_card {
+  margin-right: 2.39% !important;
+}
+
+.butt1 {
+  background: #d82e2f;
+  border-radius: 10px;
+  border: none;
+  height: 38px;
+  width: 120px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+  margin-right: 2%;
+}
+
+.butt2 {
+  border: 2px solid #d82e2f;
+  border-radius: 10px;
+  height: 38px;
+  width: 120px;
+  background-color: transparent;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #d82e2f;
+}
+
+.mtitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  margin-top:6px;
+  color: #ffffff;
+}
+
+.release ,.time ,.type{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+color: #758283;
+display: inline;
+margin-right: 3.9%;
+}
+
+/*Categories*/
+
+/*
+  footer
+*/
+
+#footer {
+  background-color: black;
+  padding-top: 58px;
+  padding-bottom: 2px;
+}
+
+.footertext {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding-right: 26.01%;
+  margin-left: 8.82%;
+
+  color: #d9d9d9;
+}
+
+.footermenu {
+  margin-top: 15px;
+  margin-left: 6%;
+}
+.footermenu li {
+  display: inline;
+  margin-right: 4.68%;
+}
+.footermenu li a {
+  display: inline;
+  text-decoration: none;
+  margin-right: 4.68%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #758283;
+}
+
+.lasttext {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 30%;
+  color: #ffffff;
+}
+
+input{
+  outline: none;
+}

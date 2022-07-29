@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/contact.css" />
+    <script src="assets/scriprt.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Movilala | Contact Us</title>
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="" class="active"
+        ><img
+          class="logoimage"
+          src="/assets/images/mainlogo.png"
+          width="140px"
+          alt="logo"
+      /></a>
+      <div class="mainmenu">
+        <a></a>
+        <a href=" ">Home</a>
+        <a href="../index.html">Home</a>
+          <a href="./movie.html">Movies</a>
+          <a href="./tvshows.html">TV Shows</a>
+          <a href="./cartoons.html" >Cartoons</a>
+        <a href="#contact">AI Recommend</a>
+      </div>
+
+      <div class="icmenu" style="left: 22%; right: 0">
+        <a></a>
+        <a href="/pages/app.html"><ion-icon name="phone-portrait-outline"></ion-icon></a>
+        <a href="/pages/login.html"><ion-icon name="person"></ion-icon></a>
+        <a href="/pages/contact.html"><ion-icon name="mail-outline"></ion-icon></a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <ion-icon name="menu"></ion-icon>
+      </a>
+    </div>
+<div id="content" style="margin: 0;">
+    <table style="margin:0;width: 100%;">
+        <tr style="margin:0;">
+            <td width="50%" class="redpage">
+                <p class="toptext">Contact Information</p>
+                <p class="subtoptext">Hi There,You can contact us with the credentials given below.</p>
+                <ul class="infocall">
+                    <li>
+                        <ion-icon name="call"></ion-icon>
+                        +977 9801034111
+                    </li>
+                    <li>
+                        <ion-icon name="mail"></ion-icon>
+                        shasandkl4@gmail.com
+                    </li>
+                    <li>
+                        <ion-icon name="location"></ion-icon>
+                        Madhyapur Thimi,Bhaktapur,Nepal
+                    </li>
+                </ul>
+            </td>
+            <td class="blackpage">
+                <p class="contacttext">Contact Us</p>
+                <p class="subtoptext">Fill up the form to get into touch with us.Our Team will contact within 24 hours</p>
+                <form name="rform" method="register" onsubmit="return validate()">
+                  <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                  <input type="text" name="lname" id="lname"  placeholder="Last Name" required><br>
+                 
+                  <input type="email" name="email" id="email"  placeholder="something@email.com"required ><br>
+                  <input type="number" name="pass1" id="pass1"  placeholder="Phone Number" required><br>
+                  <input type="password" name="pass2" id="pass2"  placeholder="Message" required><br>
+                  <button type="submit" id="loginbtn">Send</button>
+      
+              </form>
+
+            </td>
+        </tr>
+    </table>
+</div>
+     
+
+    <div id="footer">
+        <table>
+            <tr>
+                <td><img src="/assets/images/mainlogo.png" width="200px" style="margin-left:28px;"></td>
+                <td>
+                    <p class="footertext">Movilala is a Free Movies streaming site with zero promotions. We let you watch films online without enrolling or paying, with stack of 10000 motion pictures and TV-Series. You can Download full films from our site and watch it later.</p>
+                    <ul class="footermenu">
+                        <li><a href="#">Mobile App</a></li>
+                        <li><a href="#">Terms of Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Shasan Dhakal</a></li>
+                    </ul>
+                    <br>
+                    <p class="lasttext">Designed and Developed By &copy; Shasan Dhakal  2022</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>

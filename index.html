@@ -1,215 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="assets/scriprt.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movilala |Watch Movies For Free Online</title>
-    <link rel="stylesheet" href="assets/main.css">
-    <script src="assets/main.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</head>
+    <title>Watch Movie For Free</title>
+  </head>
+  <body>
+    <!--================================Navigation Bar============================================================-->
+    <div class="topnav" id="myTopnav">
+      <a href="" class="active"
+        ><img
+          class="logoimage"
+          src="assets/images/mainlogo.png"
+          width="140px"
+          alt="logo"
+      /></a>
+      <div class="mainmenu">
+        <a></a>
+        <a href=" " style="color: white">Home</a>
+        <a href="/pages/movie.html">Movies</a>
+        <a href="/pages/tvshows.html">TV Shows</a>
+        <a href="/pages/cartoons.html">Plus</a>
+        <a href="#contact">AI Recommend</a>
+      </div>
 
-<body>
-    <div id="navbar">
-        <img id="mainlogo" src="assets/mainlogo.png" width="10%">
-        <ul id="navmenu1">
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">Movies</a></li>
-            <li><a href="#">TV Shows</a></li>
-            <li><a href="#">Cartoons</a></li>
-            <li><a href="#">AI Recommend</a></li>
-            <li><a href="#">
-                    <ion-icon name="notifications-outline"></ion-icon>
-                </a></li>
-            <li><a href="#">
-                    <ion-icon name="person-outline"></ion-icon>
-                </a></li>
-            <li><a href="#">
-                    <ion-icon name="search-outline"></ion-icon>
-                </a></li>
-            <li><a href="#">
-                    <ion-icon name="menu-outline"></ion-icon>
-                </a></li>
-        </ul>
-
-
-
+      <div class="icmenu" style="left: 22%; right: 0">
+        <a></a>
+        <a href="/pages/app.html"><ion-icon name="phone-portrait-outline"></ion-icon></a>
+        <a href="/pages/login.html"><ion-icon name="person"></ion-icon></a>
+        <a href="/pages/contact.html"><ion-icon name="mail-outline"></ion-icon></a>
+        
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <ion-icon name="menu"></ion-icon>
+      </a>
     </div>
-    <div id="top_content">
-        <img id="display_image" src="assets/dune.jpg" width="100%">
-        <div id="welcome">Welcome</div>
-       
-        <div id="welcome-text">Let's Make Your<br>Own Cinema</nr>
+    <!--================================Navigation Bar============================================================-->
+
+
+    <!--================================Promotional============================================================-->
+    <div id="topcontainer">
+      <p style="color:transparent;">7</p>
+        <p class="maintext">Let's Make Your Own Cinema</p>
+        <p class="subtext">You can still enjoy Movies and TV Shows Online for Free</p>
+        <div class="searchbox"> 
+        <input  .type="text" placeholder="Search Movies TV Shows and More"> </a><button><ion-icon name="search" style="color:white;font-size:20px"></ion-icon></button></div>
+        <p style="color:transparent;margin-top: 10%;">7</p>
         </div>
-        <div id="cont_bottom_text">You can still enjoy latest movie <br>and other flims online for free</div>
-        <button id="startfree">Start Free</button>
-        <button id="gopremium">Go Premium</button>
-        <button id="playbutton" type="button">
-            <ion-icon name="play"  
-            style="position: absolute;
-            color: white;
-            left: 30%;            
-            top:25%;
-            font-size: 41px;">
-            </ion-icon>
-              
-        </button>
-        <div id="watch">Watch Now</div>  
+    <div class="mplus">
       
+      <table> 
+      <tr>
+        <td><img src="assets/images/promo.png" width="35%" style="margin-top: 1%px;margin-left: 20.2%;"></td>
+        <td><p class="promo_text">Watch stack of 10000 flims with 4k resoultion and zero ads</p>
+        <button class="gp">Get Premium</button></td>
+      </tr>      
+    </table>         
     </div>
-    <div id="categories">
-        <div id="cat_title">Watch Movies From<br> Categories You Like</div>
-        <div id="cat_subtitle">We present flims from various categories,let’s choose and search the flims of your choice</div>
-        
+<!--================================Promotional============================================================-->
+
+<!--================================Categories============================================================-->   
+<div class="categories">
+  <table>
+    <tr>
+      <td><p class="categories_text">Watch Movies From Categories You Like</p></td>
+      <td><p class="categories_subtext">We present flims from various categories ,let’s choose and search the flims of your choice</p> </td>
+    </tr>
+    </table>
+     <div class="cat_card_holder"> 
+      <div class="cat_card">
+        <div class="card_icon">
+          <ion-icon name="person"></ion-icon>
+        </div>
+        <p class="mcat_title">Drama</p>
+      </div>
+ 
+      <div class="cat_card">
+        <div class="card_icon">
+          <ion-icon name="accessibility"></ion-icon>
+        </div>
+        <p class="mcat_title">Action</p>
+      </div>
+   
+      <div class="cat_card">
+        <div class="card_icon">
+          <ion-icon name="happy"></ion-icon>
+        </div>
+        <p class="mcat_title">Comedy</p>
+      </div>
+   
+
+   
+      <div class="cat_card">
+        <div class="card_icon">
+          <ion-icon name="skull"></ion-icon>
+        </div>
+        <p class="mcat_title">Horror</p>
+      </div>
+  
+      <div class="cat_card">
+        <div class="card_icon">
+          <ion-icon name="thunderstorm"></ion-icon>
+        </div>
+        <p class="mcat_title">Thriller</p>
+      </div>
+
+      <div class="cat_card">
+        <div class="card_icon">
+          <ion-icon name="telescope"></ion-icon>
+        </div>
+        <p class="mcat_title">Sci Fi</p>
+      </div>
+
+    </div>  
+</div>
+<!--================================Categories============================================================-->
+
+<!--================================Trending============================================================-->
+<div class="moviebar" id="trending">
+  <div class="nav"> 
+  <p class="cat_title">Trending Right Now</p>
+  <button class="butt1">Movies</button>
+  <button class="butt2">TV Shows</button>
+  </div>
+  <div class="moviecardshow">
+
+      <div class="movie_card">
+        <div class="movieimage" style="background-image: url('/assets/images/mcard.jpg');"></div>
+        <p class="mtitle">Thor:Love and Thunder</p>
+        <p class="release">2022</p>
+        <p class="time">150m</p>
+        <p class="type">Movie</p>
+      </div>
+
+      <div class="movie_card">
+        <div class="movieimage" style="background-image: url('/assets/images/greyman_.jpg');"></div>
+        <p class="mtitle">Grey Men</p>
+        <p class="release">2022</p>
+        <p class="time">120m</p>
+        <p class="type">Movie</p>
+      </div>
+
+      <div class="movie_card">
+        <div class="movieimage" style="background-image: url('/assets/images/adamas.jpg');"></div>
+        <p class="mtitle">Adamas</p>
+        <p class="release">SS1</p>
+        <p class="time">EPS3</p>
+        <p class="type">TV Show</p>
+      </div>
+
+      <div class="movie_card">
+        <div class="movieimage" style="background-image: url('/assets/images/colosseum.jpg');"></div>
+        <p class="mtitle">Colosseum</p>
+        <p class="release">SS4</p>
+        <p class="time">EPS4</p>
+        <p class="type">TV Show</p>
+      </div>
+
+      <div id="movie_card">
+        <div class="movieimage" style="background-image: url('/assets/images/maverick.jpg');"></div>
+        <p class="mtitle">Top Gun Maverick</p>
+        <p class="release">2022</p>
+        <p class="time">131m</p>
+        <p class="type">Movie</p>
+      </div>
+ 
+  </div> 
+</div>
+
+<!--================================Trending============================================================-->
+
+<!--================================Lrelease============================================================-->
+<div class="moviebar" id="lrelease">
+  <div class="nav"> 
+  <p class="cat_title">Latest Release</p>
+  <button class="butt1">Movies</button>
+  <button class="butt2">TV Shows</button>
+  </div>
+  <div class="moviecardshow">
+
+      <div class="movie_card">
+        <div class="movieimage" style="background-image: url('/assets/images/mcard.jpg');"></div>
+        <p class="mtitle">Thor:Love and Thunder</p>
+        <p class="release">2022</p>
+        <p class="time">150m</p>
+        <p class="type">Movie</p>
+      </div>
+
+      <div class="movie_card">
+        <div class="movieimage" style="background-image: url('/assets/images/greyman_.jpg');"></div>
+        <p class="mtitle">Grey Men</p>
+        <p class="release">2022</p>
+        <p class="time">120m</p>
+        <p class="type">Movie</p>
+      </div>
+
+      <div class="movie_card">
+        <div class="movieimage" style="background-image: url('/assets/images/compulsion.jpg');"></div>
+        <p class="mtitle">Compulsion</p>
+        <p class="release">SS2</p>
+        <p class="time">EPS 4</p>
+        <p class="type">TV Show</p>
+      </div>
+
+      <div class="movie_card">
+        <div class="movieimage" style="background-image: url('/assets/images/recu.avif');"></div>
+        <p class="mtitle">Recurrence</p>
+        <p class="release">2022</p>
+        <p class="time">140m</p>
+        <p class="type">Movie</p>
+      </div>
+
+      <div class="movie_card">
+        <div class="movieimage" style="background-image: url('/assets/images/avoidance.jpeg');"></div>
+        <p class="mtitle">Avoidance</p>
+        <p class="release">SS3</p>
+        <p class="time">EPS2</p>
+        <p class="type">TV Show</p>
+      </div>
+ 
+  </div> 
+</div>
+<!--================================Lrelease============================================================-->
+
+<!--================================ComingSoon============================================================-->
+<div class="moviebar" id="comingsoon">
+  <div class="nav"> 
+  <p class="cat_title">Coming Soon</p>
+   
+  </div>
+  <div class="moviecardshow">
+
+    <div class="movie_card">
+      <div class="movieimage" style="background-image: url('/assets/images/adamas.jpg');"></div>
+      <p class="mtitle">Adamas</p>
+      <p class="release">SS1</p>
+      <p class="time">EPS3</p>
+      <p class="type">TV Show</p>
     </div>
-    <div id="trending">
-        <div id="trending_text">Trending <span style="font-weight:400;">Right Now</span></div>
-        <button class="ch1">Movies</button>
-        <button class="ch2">TV Shows</button>
-        <div class="moviecard">
-            <img src="assets/movie.jpg" width="100%">
-            <p class="moviename">Thor: Love and Thunders</p>
-            <p class="time">2022</p>
-            <p class="duration">146 M</p>
-            <p class="type">Movie</p>
-        </div>
-        <div class="moviecard">
-            <img src="assets/movie.jpg" width="100%">
-            <p class="moviename">Thor: Love and Thunders</p>
-            <p class="time">2022</p>
-            <p class="duration">146 M</p>
-            <p class="type">Movie</p>
-        </div>
-        <div class="moviecard">
-            <img src="assets/movie.jpg" width="100%">
-            <p class="moviename">Thor: Love and Thunders</p>
-            <p class="time">2022</p>
-            <p class="duration">146 M</p>
-            <p class="type">Movie</p>
-        </div>
-        <div class="moviecard">
-            <img src="assets/movie.jpg" width="100%">
-            <p class="moviename">Thor: Love and Thunders</p>
-            <p class="time">2022</p>
-            <p class="duration">146 M</p>
-            <p class="type">Movie</p>
-        </div>
 
-         
-        
+    <div class="movie_card">
+      <div class="movieimage" style="background-image: url('/assets/images/compulsion.jpg');"></div>
+      <p class="mtitle">Compulsion</p>
+      <p class="release">SS2</p>
+      <p class="time">EPS 4</p>
+      <p class="type">TV Show</p>
     </div>
 
-    <div id="latest">
-        <div id="latesttext">Latest Release</div>
-        <div class="moviecard">
-            <img src="assets/movie.jpg" width="100%">
-            <p class="moviename">Thor: Love and Thunders</p>
-            <p class="time">2022</p>
-            <p class="duration">146 M</p>
-            <p class="type">Movie</p>
-        </div>
-
-        <div class="moviecard">
-            <img src="assets/movie.jpg" width="100%">
-            <p class="moviename">Thor: Love and Thunders</p>
-            <p class="time">2022</p>
-            <p class="duration">146 M</p>
-            <p class="type">Movie</p>
-        </div>
-        <div class="moviecard">
-            <img src="assets/movie.jpg" width="100%">
-            <p class="moviename">Thor: Love and Thunders</p>
-            <p class="time">2022</p>
-            <p class="duration">146 M</p>
-            <p class="type">Movie</p>
-        </div>
-        <div class="moviecard">
-            <img src="assets/movie.jpg" width="100%">
-            <p class="moviename">Thor: Love and Thunders</p>
-            <p class="time">2022</p>
-            <p class="duration">146 M</p>
-            <p class="type">Movie</p>
-        </div>
-        <div class="moviecard">
-            <img src="assets/movie.jpg" width="100%">
-            <p class="moviename">Thor: Love and Thunders</p>
-            <p class="time">2022</p>
-            <p class="duration">146 M</p>
-            <p class="type">Movie</p>
-        </div>
-
-        <div class="moviecard">
-            <img src="assets/movie.jpg" width="100%">
-            <p class="moviename">Thor: Love and Thunders</p>
-            <p class="time">2022</p>
-            <p class="duration">146 M</p>
-            <p class="type">Movie</p>
-        </div>
-        <div class="moviecard">
-            <img src="assets/movie.jpg" width="100%">
-            <p class="moviename">Thor: Love and Thunders</p>
-            <p class="time">2022</p>
-            <p class="duration">146 M</p>
-            <p class="type">Movie</p>
-        </div>
-        <div class="moviecard">
-            <img src="assets/movie.jpg" width="100%">
-            <p class="moviename">Thor: Love and Thunders</p>
-            <p class="time">2022</p>
-            <p class="duration">146 M</p>
-            <p class="type">Movie</p>
-        </div>
-         
-    </div>
-    <div id="comingsoon">
-        <div id="trending_text">Coming Soon</span></div>
-        <div class="moviecard">
-            <img src="assets/movie.jpg" width="100%">
-            <p class="moviename">Thor: Love and Thunders</p>
-            <p class="time">2022</p>
-            <p class="duration">146 M</p>
-            <p class="type">Movie</p>
-        </div>
-
-        <div class="moviecard">
-            <img src="assets/movie.jpg" width="100%">
-            <p class="moviename">Thor: Love and Thunders</p>
-            <p class="time">2022</p>
-            <p class="duration">146 M</p>
-            <p class="type">Movie</p>
-        </div>
-        <div class="moviecard">
-            <img src="assets/movie.jpg" width="100%">
-            <p class="moviename">Thor: Love and Thunders</p>
-            <p class="time">2022</p>
-            <p class="duration">146 M</p>
-            <p class="type">Movie</p>
-        </div>
-        <div class="moviecard">
-            <img src="assets/movie.jpg" width="100%">
-            <p class="moviename">Thor: Love and Thunders</p>
-            <p class="time">2022</p>
-            <p class="duration">146 M</p>
-            <p class="type">Movie</p>
-        </div>
-
+    <div class="movie_card">
+      <div class="movieimage" style="background-image: url('/assets/images/diaries.jpg');"></div>
+      <p class="mtitle">The Vampire Diaries</p>
+      <p class="release">SS3</p>
+      <p class="time">EPS3</p>
+      <p class="type">TV Show</p>
     </div>
 
+    <div class="movie_card">
+      <div class="movieimage" style="background-image: url('/assets/images/lightnmagic.jpeg');"></div>
+      <p class="mtitle">Light and Magic</p>
+      <p class="release">SS5</p>
+      <p class="time">EPS5</p>
+      <p class="type">TV Show</p>
+    </div>
+
+    <div class="movie_card">
+        <div class="movieimage" style="background-image: url('/assets/images/avoidance.jpeg');"></div>
+        <p class="mtitle">Avoidance</p>
+        <p class="release">SS3</p>
+        <p class="time">EPS2</p>
+        <p class="type">TV Show</p>
+      </div>
+
+ 
+  </div> 
+</div>
+<!--================================Trending============================================================-->
+
+
+<!--================================Footer============================================================-->
+</div>
+
+ 
     <div id="footer">
-        <img id="footerlogo" src="assets/mainlogo.png" width="15%">
-        <p id="footertext">Movilala is a Free Movies streaming site with zero promotions. We let you watch films online without enrolling or paying, with stack of 10000 motion pictures and TV-Series. You can Download full films from our site and watch it later.</p>
-        <ul id="footermenu">
-            <li><a href="">Mobile App</a></li>
-            <li><a href="">Terms of Services</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Sitemap</a></li>
-            <li><a href="">Shasan Dhakal</a></li>
-        </ul>
-        <p id="last_text">Designed and Developed By &copy; Shasan Dhakal  2022</p>
-    </div>
-</body>
-
+      <table>
+          <tr>
+              <td><img src="./assets/images/mainlogo.png" width="200px" style="margin-left:28px;"></td>
+              <td>
+                  <p class="footertext">Movilala is a Free Movies streaming site with zero promotions. We let you watch films online without enrolling or paying, with stack of 10000 motion pictures and TV-Series. You can Download full films from our site and watch it later.</p>
+                  <ul class="footermenu">
+                      <li><a href="#">Mobile App</a></li>
+                      <li><a href="#">Terms of Services</a></li>
+                      <li><a href="pages/contact.html" target="_blank">Contact</a></li>
+                      <li><a href="#">Sitemap</a></li>
+                      <li><a href="#">Shasan Dhakal</a></li>
+                  </ul>
+                  <br>
+                  <p class="lasttext">Designed and Developed By &copy; Shasan Dhakal  2022</p>
+              </td>
+          </tr>
+      </table>
+  </div>
+<!--======================================Footer============================================================-->
+  </body>
 </html>
