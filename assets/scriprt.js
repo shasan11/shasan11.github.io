@@ -6,3 +6,7 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+  document.getElementsByClassName("movie_card").onclick = function () {
+    location.href = "/assets/index.html";
+};

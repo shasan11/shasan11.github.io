@@ -136,9 +136,9 @@ color: #758283;
      <!--================================content============================================================-->
      <div id="login">
         <p class="header">Login</p>
-        <form>
-            <input type="text" name="username" id="uname" placeholder="Enter Your Username" required>
-            <input type="password" name="password" id="pwd"  placeholder="Enter Your Username" required><br>
+        <form name="lform" onsubmit="return validate_login()">
+            <input type="text" name="username" id="uname" placeholder="Enter Your Username">
+            <input type="password" name="password" id="pwd"  placeholder="Enter Your Username"><br>
             <button type="submit" id="loginbtn">Login</button>
         </form>
         <p class="nmtext">Not Registered Yet?<a href="/pages/signup.html"><span>Register</span></a> Here</p>
@@ -167,7 +167,8 @@ color: #758283;
             </tr>
         </table>
     </div>
-
+ 
+ 
     <!--================================Footer============================================================-->
 
 </body>

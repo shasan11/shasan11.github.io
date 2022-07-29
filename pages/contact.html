@@ -68,7 +68,7 @@
             <td class="blackpage">
                 <p class="contacttext">Contact Us</p>
                 <p class="subtoptext">Fill up the form to get into touch with us.Our Team will contact within 24 hours</p>
-                <form name="rform" method="register" onsubmit="return validate()">
+                <form name="cform" onsubmit="return validate()">
                   <input type="text" name="fname" id="fname" placeholder="First Name" required>
                   <input type="text" name="lname" id="lname"  placeholder="Last Name" required><br>
                  
@@ -106,6 +106,12 @@
     </div>
 
     <script>
+      function validate_form()
+      {
+        let p1=document.forms["rform"]["pass1"].value;
+        let p2=document.forms["rform"]["pass2"].value;
+        
+      }
       function myFunction() {
         var x = document.getElementById("myTopnav");
         if (x.className === "topnav") {
