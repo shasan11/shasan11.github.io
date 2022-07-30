@@ -169,12 +169,12 @@
         <p class="type">TV Show</p>
       </div>
 
-      <div id="movie_card">
-        <div class="movieimage" style="background-image: url('/assets/images/maverick.jpg');"></div>
-        <p class="mtitle">Top Gun Maverick</p>
-        <p class="release">2022</p>
-        <p class="time">131m</p>
-        <p class="type">Movie</p>
+      <div class="movie_card">
+        <div class="movieimage" style="background-image: url('/assets/images/compulsion.jpg');"></div>
+        <p class="mtitle">Compulsion</p>
+        <p class="release">SS2</p>
+        <p class="time">EPS 4</p>
+        <p class="type">TV Show</p>
       </div>
  
   </div> 
@@ -313,5 +313,10 @@
       </table>
   </div>
 <!--======================================Footer============================================================-->
+<script>
+  document.getElementsByClassName("movie_card").onclick = function () {
+    onclick=window.location.href='/pages/playpage.html';
+};
+</script>
   </body>
 </html>

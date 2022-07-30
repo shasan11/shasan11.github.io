@@ -8,5 +8,5 @@ function myFunction() {
   }
 
   document.getElementsByClassName("movie_card").onclick = function () {
-    location.href = "/assets/index.html";
+    onclick=window.location.href='/pages/playpage.html';
 };

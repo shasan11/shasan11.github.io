@@ -258,10 +258,16 @@ color: #FFFFFF;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 49px;
 
   color: #FFFFFF;}
+
+  #loginbtn:hover
+  {
+    background: #841c1c;
+
+  }
 
   input{
     outline: none;
